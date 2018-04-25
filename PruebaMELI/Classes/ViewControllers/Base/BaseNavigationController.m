@@ -40,7 +40,7 @@
     
     UIApplication.sharedApplication.statusBarStyle = UIStatusBarStyleLightContent;
     [self.navigationBar setTranslucent:YES];
-    
+    // gola
     
     [Appearance setNavigationBarWithColor:[UIColor colorWithRed:33/255.f green:191/255.f blue:233/255.f alpha:1.0] navigationBar:self.navigationBar];
 }
