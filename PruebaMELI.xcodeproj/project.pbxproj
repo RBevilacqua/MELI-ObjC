@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		055F8253208FB3B6002BF38A /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 055F8252208FB3B6002BF38A /* BaseNavigationController.m */; };
+		055F8256208FB7BD002BF38A /* UINavigationController+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 055F8255208FB7BD002BF38A /* UINavigationController+Appearance.m */; };
+		055F8259208FB91B002BF38A /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 055F8258208FB91B002BF38A /* UIImage+Utils.m */; };
+		055F825C2090BD25002BF38A /* Pose.m in Sources */ = {isa = PBXBuildFile; fileRef = 055F825B2090BD25002BF38A /* Pose.m */; };
+		056B8FC0208CF37B00A6CD3C /* Loading.xib in Resources */ = {isa = PBXBuildFile; fileRef = 056B8FBF208CF37A00A6CD3C /* Loading.xib */; };
+		056B8FC3208CF40D00A6CD3C /* Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 056B8FC2208CF40D00A6CD3C /* Loading.m */; };
+		056B8FC6208D3AB500A6CD3C /* SpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 056B8FC5208D3AB500A6CD3C /* SpinnerView.m */; };
+		056B8FCA208E80E600A6CD3C /* IssuerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 056B8FC9208E80E600A6CD3C /* IssuerViewModel.m */; };
+		056B8FCE208E8DD600A6CD3C /* InstallmentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 056B8FCD208E8DD600A6CD3C /* InstallmentViewModel.m */; };
 		0570423C208644EB00F32FAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0570423B208644EB00F32FAA /* AppDelegate.m */; };
 		0570423F208644EB00F32FAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0570423E208644EB00F32FAA /* ViewController.m */; };
 		05704242208644EB00F32FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05704240208644EB00F32FAA /* Main.storyboard */; };
@@ -15,6 +24,38 @@
 		0570424A208644EC00F32FAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05704249208644EC00F32FAA /* main.m */; };
 		05704254208644ED00F32FAA /* PruebaMELITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05704253208644ED00F32FAA /* PruebaMELITests.m */; };
 		0570425F208644ED00F32FAA /* PruebaMELIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0570425E208644ED00F32FAA /* PruebaMELIUITests.m */; };
+		05704270208667EE00F32FAA /* AmountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0570426F208667EE00F32FAA /* AmountViewController.xib */; };
+		057042732086680C00F32FAA /* AmountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057042722086680C00F32FAA /* AmountViewController.m */; };
+		0570427D2086872B00F32FAA /* Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0570427C2086872B00F32FAA /* Appearance.m */; };
+		0570428020879C8400F32FAA /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0570427F20879C8400F32FAA /* UIView+Animation.m */; };
+		057042852087B4AF00F32FAA /* PaymentMethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057042832087B4AF00F32FAA /* PaymentMethodsViewController.m */; };
+		057042862087B4AF00F32FAA /* PaymentMethodsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 057042842087B4AF00F32FAA /* PaymentMethodsViewController.xib */; };
+		0570428F2088F2D400F32FAA /* PaymentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0570428D2088F2D400F32FAA /* PaymentCollectionViewCell.m */; };
+		057042902088F2D400F32FAA /* PaymentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0570428E2088F2D400F32FAA /* PaymentCollectionViewCell.xib */; };
+		0570429520890ECE00F32FAA /* PaymentMethodsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0570429420890ECE00F32FAA /* PaymentMethodsViewModel.m */; };
+		05704299208911C400F32FAA /* PaymentMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 05704298208911C400F32FAA /* PaymentMethods.m */; };
+		0570429C2089224100F32FAA /* ServicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0570429B2089224100F32FAA /* ServicesManager.m */; };
+		057042A920892F4D00F32FAA /* IssuerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 057042A820892F4D00F32FAA /* IssuerViewController.xib */; };
+		057042AB20892F5B00F32FAA /* InstallmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 057042AA20892F5B00F32FAA /* InstallmentViewController.xib */; };
+		057042AE20892FA800F32FAA /* IssuerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057042AD20892FA800F32FAA /* IssuerViewController.m */; };
+		057042B120892FC100F32FAA /* InstallmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057042B020892FC100F32FAA /* InstallmentViewController.m */; };
+		057042B5208A1F0B00F32FAA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057042B4208A1F0B00F32FAA /* BaseViewController.m */; };
+		057042C0208A406400F32FAA /* UITableView+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 057042BF208A406400F32FAA /* UITableView+Register.m */; };
+		057042C3208A416200F32FAA /* UICollectionView+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 057042C2208A416100F32FAA /* UICollectionView+Register.m */; };
+		057042C7208A447B00F32FAA /* IssuerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 057042C5208A447B00F32FAA /* IssuerTableViewCell.m */; };
+		057042C8208A447B00F32FAA /* IssuerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 057042C6208A447B00F32FAA /* IssuerTableViewCell.xib */; };
+		057042CC208A500900F32FAA /* InstallmentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 057042CA208A500900F32FAA /* InstallmentTableViewCell.m */; };
+		057042CD208A500900F32FAA /* InstallmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 057042CB208A500900F32FAA /* InstallmentTableViewCell.xib */; };
+		057042D6208A5D0B00F32FAA /* Installments.m in Sources */ = {isa = PBXBuildFile; fileRef = 057042D1208A5D0B00F32FAA /* Installments.m */; };
+		057042D7208A5D0B00F32FAA /* PayerCost.m in Sources */ = {isa = PBXBuildFile; fileRef = 057042D4208A5D0B00F32FAA /* PayerCost.m */; };
+		057042D8208A5D0B00F32FAA /* IssuerCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 057042D5208A5D0B00F32FAA /* IssuerCard.m */; };
+		0575CCB8208A9D100026AE25 /* MLViewAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 0575CCB7208A9D100026AE25 /* MLViewAlert.m */; };
+		0575CCBA208A9D5E0026AE25 /* MLViewAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0575CCB9208A9D5E0026AE25 /* MLViewAlert.xib */; };
+		0575CCBC208C1D8F0026AE25 /* Message.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0575CCBB208C1D8F0026AE25 /* Message.xib */; };
+		0575CCBF208C1DC80026AE25 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 0575CCBE208C1DC80026AE25 /* Message.m */; };
+		0B8EC0C8A7A7F466AD23A00F /* libPods-PruebaMELI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F67CB991796343C408863DB5 /* libPods-PruebaMELI.a */; };
+		EC6649664FE823F0CD97FDA7 /* libPods-PruebaMELITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE13C64A8F3D4D030370FA5 /* libPods-PruebaMELITests.a */; };
+		FC97F6F63A6CC96C31003B6B /* libPods-PruebaMELIUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF175312F4735AD601E16369 /* libPods-PruebaMELIUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +76,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		055F8251208FB3B6002BF38A /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		055F8252208FB3B6002BF38A /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		055F8254208FB7BD002BF38A /* UINavigationController+Appearance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Appearance.h"; sourceTree = "<group>"; };
+		055F8255208FB7BD002BF38A /* UINavigationController+Appearance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Appearance.m"; sourceTree = "<group>"; };
+		055F8257208FB91B002BF38A /* UIImage+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		055F8258208FB91B002BF38A /* UIImage+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		055F825A2090BD25002BF38A /* Pose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pose.h; sourceTree = "<group>"; };
+		055F825B2090BD25002BF38A /* Pose.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pose.m; sourceTree = "<group>"; };
+		056B8FBF208CF37A00A6CD3C /* Loading.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Loading.xib; sourceTree = "<group>"; };
+		056B8FC1208CF40D00A6CD3C /* Loading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loading.h; sourceTree = "<group>"; };
+		056B8FC2208CF40D00A6CD3C /* Loading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Loading.m; sourceTree = "<group>"; };
+		056B8FC4208D3AB500A6CD3C /* SpinnerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpinnerView.h; sourceTree = "<group>"; };
+		056B8FC5208D3AB500A6CD3C /* SpinnerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinnerView.m; sourceTree = "<group>"; };
+		056B8FC8208E80E600A6CD3C /* IssuerViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IssuerViewModel.h; sourceTree = "<group>"; };
+		056B8FC9208E80E600A6CD3C /* IssuerViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IssuerViewModel.m; sourceTree = "<group>"; };
+		056B8FCC208E8DD600A6CD3C /* InstallmentViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstallmentViewModel.h; sourceTree = "<group>"; };
+		056B8FCD208E8DD600A6CD3C /* InstallmentViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstallmentViewModel.m; sourceTree = "<group>"; };
 		05704237208644EB00F32FAA /* PruebaMELI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaMELI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0570423A208644EB00F32FAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0570423B208644EB00F32FAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +109,67 @@
 		0570425A208644ED00F32FAA /* PruebaMELIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaMELIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0570425E208644ED00F32FAA /* PruebaMELIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PruebaMELIUITests.m; sourceTree = "<group>"; };
 		05704260208644ED00F32FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0570426F208667EE00F32FAA /* AmountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmountViewController.xib; sourceTree = "<group>"; };
+		057042712086680C00F32FAA /* AmountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmountViewController.h; sourceTree = "<group>"; };
+		057042722086680C00F32FAA /* AmountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmountViewController.m; sourceTree = "<group>"; };
+		0570427B2086872B00F32FAA /* Appearance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Appearance.h; sourceTree = "<group>"; };
+		0570427C2086872B00F32FAA /* Appearance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Appearance.m; sourceTree = "<group>"; };
+		0570427E20879C8400F32FAA /* UIView+Animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		0570427F20879C8400F32FAA /* UIView+Animation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		057042822087B4AF00F32FAA /* PaymentMethodsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentMethodsViewController.h; sourceTree = "<group>"; };
+		057042832087B4AF00F32FAA /* PaymentMethodsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentMethodsViewController.m; sourceTree = "<group>"; };
+		057042842087B4AF00F32FAA /* PaymentMethodsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentMethodsViewController.xib; sourceTree = "<group>"; };
+		057042882087BEB000F32FAA /* PaymentDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentDelegate.h; sourceTree = "<group>"; };
+		0570428C2088F2D400F32FAA /* PaymentCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentCollectionViewCell.h; sourceTree = "<group>"; };
+		0570428D2088F2D400F32FAA /* PaymentCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentCollectionViewCell.m; sourceTree = "<group>"; };
+		0570428E2088F2D400F32FAA /* PaymentCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentCollectionViewCell.xib; sourceTree = "<group>"; };
+		0570429320890ECE00F32FAA /* PaymentMethodsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentMethodsViewModel.h; sourceTree = "<group>"; };
+		0570429420890ECE00F32FAA /* PaymentMethodsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentMethodsViewModel.m; sourceTree = "<group>"; };
+		05704297208911C400F32FAA /* PaymentMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentMethods.h; sourceTree = "<group>"; };
+		05704298208911C400F32FAA /* PaymentMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentMethods.m; sourceTree = "<group>"; };
+		0570429A2089224100F32FAA /* ServicesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesManager.h; sourceTree = "<group>"; };
+		0570429B2089224100F32FAA /* ServicesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesManager.m; sourceTree = "<group>"; };
+		057042A820892F4D00F32FAA /* IssuerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IssuerViewController.xib; sourceTree = "<group>"; };
+		057042AA20892F5B00F32FAA /* InstallmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstallmentViewController.xib; sourceTree = "<group>"; };
+		057042AC20892FA800F32FAA /* IssuerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IssuerViewController.h; sourceTree = "<group>"; };
+		057042AD20892FA800F32FAA /* IssuerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IssuerViewController.m; sourceTree = "<group>"; };
+		057042AF20892FC100F32FAA /* InstallmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstallmentViewController.h; sourceTree = "<group>"; };
+		057042B020892FC100F32FAA /* InstallmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstallmentViewController.m; sourceTree = "<group>"; };
+		057042B3208A1F0B00F32FAA /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		057042B4208A1F0B00F32FAA /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		057042BE208A406400F32FAA /* UITableView+Register.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+Register.h"; sourceTree = "<group>"; };
+		057042BF208A406400F32FAA /* UITableView+Register.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Register.m"; sourceTree = "<group>"; };
+		057042C1208A416100F32FAA /* UICollectionView+Register.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Register.h"; sourceTree = "<group>"; };
+		057042C2208A416100F32FAA /* UICollectionView+Register.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Register.m"; sourceTree = "<group>"; };
+		057042C4208A447B00F32FAA /* IssuerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IssuerTableViewCell.h; sourceTree = "<group>"; };
+		057042C5208A447B00F32FAA /* IssuerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IssuerTableViewCell.m; sourceTree = "<group>"; };
+		057042C6208A447B00F32FAA /* IssuerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IssuerTableViewCell.xib; sourceTree = "<group>"; };
+		057042C9208A500900F32FAA /* InstallmentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstallmentTableViewCell.h; sourceTree = "<group>"; };
+		057042CA208A500900F32FAA /* InstallmentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstallmentTableViewCell.m; sourceTree = "<group>"; };
+		057042CB208A500900F32FAA /* InstallmentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstallmentTableViewCell.xib; sourceTree = "<group>"; };
+		057042CE208A5AD800F32FAA /* IssuerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IssuerDelegate.h; sourceTree = "<group>"; };
+		057042CF208A5AE600F32FAA /* InstallmentDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstallmentDelegate.h; sourceTree = "<group>"; };
+		057042D0208A5D0B00F32FAA /* Installments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Installments.h; sourceTree = "<group>"; };
+		057042D1208A5D0B00F32FAA /* Installments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Installments.m; sourceTree = "<group>"; };
+		057042D2208A5D0B00F32FAA /* PayerCost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayerCost.h; sourceTree = "<group>"; };
+		057042D3208A5D0B00F32FAA /* IssuerCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssuerCard.h; sourceTree = "<group>"; };
+		057042D4208A5D0B00F32FAA /* PayerCost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayerCost.m; sourceTree = "<group>"; };
+		057042D5208A5D0B00F32FAA /* IssuerCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssuerCard.m; sourceTree = "<group>"; };
+		0575CCB6208A9D100026AE25 /* MLViewAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLViewAlert.h; sourceTree = "<group>"; };
+		0575CCB7208A9D100026AE25 /* MLViewAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLViewAlert.m; sourceTree = "<group>"; };
+		0575CCB9208A9D5E0026AE25 /* MLViewAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MLViewAlert.xib; sourceTree = "<group>"; };
+		0575CCBB208C1D8F0026AE25 /* Message.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Message.xib; sourceTree = "<group>"; };
+		0575CCBD208C1DC80026AE25 /* Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		0575CCBE208C1DC80026AE25 /* Message.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		1702B88221E8487D7F42B556 /* Pods-PruebaMELI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaMELI.release.xcconfig"; path = "Pods/Target Support Files/Pods-PruebaMELI/Pods-PruebaMELI.release.xcconfig"; sourceTree = "<group>"; };
+		3CEA4C278AFE4F5A5A0A52DE /* Pods-PruebaMELI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaMELI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PruebaMELI/Pods-PruebaMELI.debug.xcconfig"; sourceTree = "<group>"; };
+		4BE13C64A8F3D4D030370FA5 /* libPods-PruebaMELITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PruebaMELITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		740AB93B7465C8CD2D495D18 /* Pods-PruebaMELITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaMELITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PruebaMELITests/Pods-PruebaMELITests.release.xcconfig"; sourceTree = "<group>"; };
+		A83DBA9CDA93190CF0D965FD /* Pods-PruebaMELITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaMELITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PruebaMELITests/Pods-PruebaMELITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1D6E5BC7643676BF61CF13B /* Pods-PruebaMELIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaMELIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PruebaMELIUITests/Pods-PruebaMELIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6EC02801B640C4E029E560 /* Pods-PruebaMELIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaMELIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PruebaMELIUITests/Pods-PruebaMELIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F67CB991796343C408863DB5 /* libPods-PruebaMELI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PruebaMELI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF175312F4735AD601E16369 /* libPods-PruebaMELIUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PruebaMELIUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B8EC0C8A7A7F466AD23A00F /* libPods-PruebaMELI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +185,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6649664FE823F0CD97FDA7 /* libPods-PruebaMELITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +193,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC97F6F63A6CC96C31003B6B /* libPods-PruebaMELIUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		056B8FC7208E80C900A6CD3C /* Issuer */ = {
+			isa = PBXGroup;
+			children = (
+				056B8FC8208E80E600A6CD3C /* IssuerViewModel.h */,
+				056B8FC9208E80E600A6CD3C /* IssuerViewModel.m */,
+			);
+			path = Issuer;
+			sourceTree = "<group>";
+		};
+		056B8FCB208E8DC100A6CD3C /* Installment */ = {
+			isa = PBXGroup;
+			children = (
+				056B8FCC208E8DD600A6CD3C /* InstallmentViewModel.h */,
+				056B8FCD208E8DD600A6CD3C /* InstallmentViewModel.m */,
+			);
+			path = Installment;
+			sourceTree = "<group>";
+		};
 		0570422E208644EA00F32FAA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +225,8 @@
 				05704252208644EC00F32FAA /* PruebaMELITests */,
 				0570425D208644ED00F32FAA /* PruebaMELIUITests */,
 				05704238208644EB00F32FAA /* Products */,
+				95A158E7D4DED2B967219569 /* Pods */,
+				5D96996EFEFC968234234D3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +243,7 @@
 		05704239208644EB00F32FAA /* PruebaMELI */ = {
 			isa = PBXGroup;
 			children = (
+				0570426C208667B700F32FAA /* Classes */,
 				0570423A208644EB00F32FAA /* AppDelegate.h */,
 				0570423B208644EB00F32FAA /* AppDelegate.m */,
 				0570423D208644EB00F32FAA /* ViewController.h */,
@@ -132,6 +275,207 @@
 			path = PruebaMELIUITests;
 			sourceTree = "<group>";
 		};
+		0570426C208667B700F32FAA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				057042962089118E00F32FAA /* Models */,
+				0570429120890E9500F32FAA /* ViewModels */,
+				0570428B2088F29D00F32FAA /* Views */,
+				057042872087BA1C00F32FAA /* Protocols */,
+				0570427420866A5300F32FAA /* Utilities */,
+				0570426D208667D300F32FAA /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0570426D208667D300F32FAA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				057042B2208A1EF700F32FAA /* Base */,
+				057042A720892F3800F32FAA /* Issuer */,
+				057042A620892F2D00F32FAA /* Installment */,
+				057042812087B48100F32FAA /* PaymentMethods */,
+				0570426E208667E000F32FAA /* Amount */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0570426E208667E000F32FAA /* Amount */ = {
+			isa = PBXGroup;
+			children = (
+				0570426F208667EE00F32FAA /* AmountViewController.xib */,
+				057042712086680C00F32FAA /* AmountViewController.h */,
+				057042722086680C00F32FAA /* AmountViewController.m */,
+			);
+			path = Amount;
+			sourceTree = "<group>";
+		};
+		0570427420866A5300F32FAA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0570427B2086872B00F32FAA /* Appearance.h */,
+				0570427C2086872B00F32FAA /* Appearance.m */,
+				0570427E20879C8400F32FAA /* UIView+Animation.h */,
+				0570427F20879C8400F32FAA /* UIView+Animation.m */,
+				057042BE208A406400F32FAA /* UITableView+Register.h */,
+				057042BF208A406400F32FAA /* UITableView+Register.m */,
+				0570429A2089224100F32FAA /* ServicesManager.h */,
+				0570429B2089224100F32FAA /* ServicesManager.m */,
+				057042C1208A416100F32FAA /* UICollectionView+Register.h */,
+				057042C2208A416100F32FAA /* UICollectionView+Register.m */,
+				056B8FC4208D3AB500A6CD3C /* SpinnerView.h */,
+				056B8FC5208D3AB500A6CD3C /* SpinnerView.m */,
+				055F8254208FB7BD002BF38A /* UINavigationController+Appearance.h */,
+				055F8255208FB7BD002BF38A /* UINavigationController+Appearance.m */,
+				055F8257208FB91B002BF38A /* UIImage+Utils.h */,
+				055F8258208FB91B002BF38A /* UIImage+Utils.m */,
+				055F825A2090BD25002BF38A /* Pose.h */,
+				055F825B2090BD25002BF38A /* Pose.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		057042812087B48100F32FAA /* PaymentMethods */ = {
+			isa = PBXGroup;
+			children = (
+				057042822087B4AF00F32FAA /* PaymentMethodsViewController.h */,
+				057042832087B4AF00F32FAA /* PaymentMethodsViewController.m */,
+				057042842087B4AF00F32FAA /* PaymentMethodsViewController.xib */,
+			);
+			path = PaymentMethods;
+			sourceTree = "<group>";
+		};
+		057042872087BA1C00F32FAA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				057042882087BEB000F32FAA /* PaymentDelegate.h */,
+				057042CE208A5AD800F32FAA /* IssuerDelegate.h */,
+				057042CF208A5AE600F32FAA /* InstallmentDelegate.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0570428B2088F29D00F32FAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				057042D9208A699200F32FAA /* Cells */,
+				0575CCB9208A9D5E0026AE25 /* MLViewAlert.xib */,
+				0575CCB6208A9D100026AE25 /* MLViewAlert.h */,
+				0575CCB7208A9D100026AE25 /* MLViewAlert.m */,
+				0575CCBB208C1D8F0026AE25 /* Message.xib */,
+				0575CCBD208C1DC80026AE25 /* Message.h */,
+				0575CCBE208C1DC80026AE25 /* Message.m */,
+				056B8FBF208CF37A00A6CD3C /* Loading.xib */,
+				056B8FC1208CF40D00A6CD3C /* Loading.h */,
+				056B8FC2208CF40D00A6CD3C /* Loading.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0570429120890E9500F32FAA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				056B8FCB208E8DC100A6CD3C /* Installment */,
+				056B8FC7208E80C900A6CD3C /* Issuer */,
+				0570429220890E9F00F32FAA /* PaymentMethods */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0570429220890E9F00F32FAA /* PaymentMethods */ = {
+			isa = PBXGroup;
+			children = (
+				0570429320890ECE00F32FAA /* PaymentMethodsViewModel.h */,
+				0570429420890ECE00F32FAA /* PaymentMethodsViewModel.m */,
+			);
+			path = PaymentMethods;
+			sourceTree = "<group>";
+		};
+		057042962089118E00F32FAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				057042D0208A5D0B00F32FAA /* Installments.h */,
+				057042D1208A5D0B00F32FAA /* Installments.m */,
+				057042D3208A5D0B00F32FAA /* IssuerCard.h */,
+				057042D5208A5D0B00F32FAA /* IssuerCard.m */,
+				057042D2208A5D0B00F32FAA /* PayerCost.h */,
+				057042D4208A5D0B00F32FAA /* PayerCost.m */,
+				05704297208911C400F32FAA /* PaymentMethods.h */,
+				05704298208911C400F32FAA /* PaymentMethods.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		057042A620892F2D00F32FAA /* Installment */ = {
+			isa = PBXGroup;
+			children = (
+				057042AA20892F5B00F32FAA /* InstallmentViewController.xib */,
+				057042AF20892FC100F32FAA /* InstallmentViewController.h */,
+				057042B020892FC100F32FAA /* InstallmentViewController.m */,
+			);
+			path = Installment;
+			sourceTree = "<group>";
+		};
+		057042A720892F3800F32FAA /* Issuer */ = {
+			isa = PBXGroup;
+			children = (
+				057042A820892F4D00F32FAA /* IssuerViewController.xib */,
+				057042AC20892FA800F32FAA /* IssuerViewController.h */,
+				057042AD20892FA800F32FAA /* IssuerViewController.m */,
+			);
+			path = Issuer;
+			sourceTree = "<group>";
+		};
+		057042B2208A1EF700F32FAA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				057042B3208A1F0B00F32FAA /* BaseViewController.h */,
+				057042B4208A1F0B00F32FAA /* BaseViewController.m */,
+				055F8251208FB3B6002BF38A /* BaseNavigationController.h */,
+				055F8252208FB3B6002BF38A /* BaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		057042D9208A699200F32FAA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0570428C2088F2D400F32FAA /* PaymentCollectionViewCell.h */,
+				0570428D2088F2D400F32FAA /* PaymentCollectionViewCell.m */,
+				0570428E2088F2D400F32FAA /* PaymentCollectionViewCell.xib */,
+				057042C4208A447B00F32FAA /* IssuerTableViewCell.h */,
+				057042C5208A447B00F32FAA /* IssuerTableViewCell.m */,
+				057042C6208A447B00F32FAA /* IssuerTableViewCell.xib */,
+				057042C9208A500900F32FAA /* InstallmentTableViewCell.h */,
+				057042CA208A500900F32FAA /* InstallmentTableViewCell.m */,
+				057042CB208A500900F32FAA /* InstallmentTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5D96996EFEFC968234234D3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F67CB991796343C408863DB5 /* libPods-PruebaMELI.a */,
+				4BE13C64A8F3D4D030370FA5 /* libPods-PruebaMELITests.a */,
+				FF175312F4735AD601E16369 /* libPods-PruebaMELIUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95A158E7D4DED2B967219569 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CEA4C278AFE4F5A5A0A52DE /* Pods-PruebaMELI.debug.xcconfig */,
+				1702B88221E8487D7F42B556 /* Pods-PruebaMELI.release.xcconfig */,
+				A83DBA9CDA93190CF0D965FD /* Pods-PruebaMELITests.debug.xcconfig */,
+				740AB93B7465C8CD2D495D18 /* Pods-PruebaMELITests.release.xcconfig */,
+				B1D6E5BC7643676BF61CF13B /* Pods-PruebaMELIUITests.debug.xcconfig */,
+				BA6EC02801B640C4E029E560 /* Pods-PruebaMELIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +483,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05704263208644ED00F32FAA /* Build configuration list for PBXNativeTarget "PruebaMELI" */;
 			buildPhases = (
+				6730CE884B0908BF285C85FE /* [CP] Check Pods Manifest.lock */,
 				05704233208644EA00F32FAA /* Sources */,
 				05704234208644EA00F32FAA /* Frameworks */,
 				05704235208644EA00F32FAA /* Resources */,
@@ -156,6 +501,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05704266208644ED00F32FAA /* Build configuration list for PBXNativeTarget "PruebaMELITests" */;
 			buildPhases = (
+				C22C4AA49B7613466FDAA143 /* [CP] Check Pods Manifest.lock */,
 				0570424B208644EC00F32FAA /* Sources */,
 				0570424C208644EC00F32FAA /* Frameworks */,
 				0570424D208644EC00F32FAA /* Resources */,
@@ -174,6 +520,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05704269208644ED00F32FAA /* Build configuration list for PBXNativeTarget "PruebaMELIUITests" */;
 			buildPhases = (
+				F3434F2218D39F84186A2C19 /* [CP] Check Pods Manifest.lock */,
 				05704256208644ED00F32FAA /* Sources */,
 				05704257208644ED00F32FAA /* Frameworks */,
 				05704258208644ED00F32FAA /* Resources */,
@@ -235,8 +582,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				057042C8208A447B00F32FAA /* IssuerTableViewCell.xib in Resources */,
+				057042AB20892F5B00F32FAA /* InstallmentViewController.xib in Resources */,
+				05704270208667EE00F32FAA /* AmountViewController.xib in Resources */,
+				0575CCBA208A9D5E0026AE25 /* MLViewAlert.xib in Resources */,
+				056B8FC0208CF37B00A6CD3C /* Loading.xib in Resources */,
+				057042CD208A500900F32FAA /* InstallmentTableViewCell.xib in Resources */,
+				0575CCBC208C1D8F0026AE25 /* Message.xib in Resources */,
+				057042902088F2D400F32FAA /* PaymentCollectionViewCell.xib in Resources */,
+				057042862087B4AF00F32FAA /* PaymentMethodsViewController.xib in Resources */,
 				05704247208644EC00F32FAA /* LaunchScreen.storyboard in Resources */,
 				05704244208644EC00F32FAA /* Assets.xcassets in Resources */,
+				057042A920892F4D00F32FAA /* IssuerViewController.xib in Resources */,
 				05704242208644EB00F32FAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +614,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6730CE884B0908BF285C85FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PruebaMELI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C22C4AA49B7613466FDAA143 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PruebaMELITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3434F2218D39F84186A2C19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PruebaMELIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		05704233208644EA00F32FAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				057042732086680C00F32FAA /* AmountViewController.m in Sources */,
+				057042852087B4AF00F32FAA /* PaymentMethodsViewController.m in Sources */,
+				056B8FC3208CF40D00A6CD3C /* Loading.m in Sources */,
+				057042C7208A447B00F32FAA /* IssuerTableViewCell.m in Sources */,
+				057042C0208A406400F32FAA /* UITableView+Register.m in Sources */,
+				0570427D2086872B00F32FAA /* Appearance.m in Sources */,
+				0575CCB8208A9D100026AE25 /* MLViewAlert.m in Sources */,
+				056B8FCA208E80E600A6CD3C /* IssuerViewModel.m in Sources */,
+				055F8253208FB3B6002BF38A /* BaseNavigationController.m in Sources */,
+				055F825C2090BD25002BF38A /* Pose.m in Sources */,
+				055F8259208FB91B002BF38A /* UIImage+Utils.m in Sources */,
+				055F8256208FB7BD002BF38A /* UINavigationController+Appearance.m in Sources */,
+				0575CCBF208C1DC80026AE25 /* Message.m in Sources */,
+				0570429C2089224100F32FAA /* ServicesManager.m in Sources */,
+				0570428F2088F2D400F32FAA /* PaymentCollectionViewCell.m in Sources */,
+				057042D6208A5D0B00F32FAA /* Installments.m in Sources */,
+				056B8FCE208E8DD600A6CD3C /* InstallmentViewModel.m in Sources */,
+				057042B5208A1F0B00F32FAA /* BaseViewController.m in Sources */,
 				0570423F208644EB00F32FAA /* ViewController.m in Sources */,
+				0570428020879C8400F32FAA /* UIView+Animation.m in Sources */,
+				057042AE20892FA800F32FAA /* IssuerViewController.m in Sources */,
+				057042B120892FC100F32FAA /* InstallmentViewController.m in Sources */,
 				0570424A208644EC00F32FAA /* main.m in Sources */,
+				057042CC208A500900F32FAA /* InstallmentTableViewCell.m in Sources */,
+				05704299208911C400F32FAA /* PaymentMethods.m in Sources */,
+				057042D7208A5D0B00F32FAA /* PayerCost.m in Sources */,
+				057042C3208A416200F32FAA /* UICollectionView+Register.m in Sources */,
+				0570429520890ECE00F32FAA /* PaymentMethodsViewModel.m in Sources */,
+				057042D8208A5D0B00F32FAA /* IssuerCard.m in Sources */,
+				056B8FC6208D3AB500A6CD3C /* SpinnerView.m in Sources */,
 				0570423C208644EB00F32FAA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,9 +873,11 @@
 		};
 		05704264208644ED00F32FAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CEA4C278AFE4F5A5A0A52DE /* Pods-PruebaMELI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGYJ36BT29;
 				INFOPLIST_FILE = PruebaMELI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +891,11 @@
 		};
 		05704265208644ED00F32FAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1702B88221E8487D7F42B556 /* Pods-PruebaMELI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGYJ36BT29;
 				INFOPLIST_FILE = PruebaMELI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,6 +909,7 @@
 		};
 		05704267208644ED00F32FAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A83DBA9CDA93190CF0D965FD /* Pods-PruebaMELITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +928,7 @@
 		};
 		05704268208644ED00F32FAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740AB93B7465C8CD2D495D18 /* Pods-PruebaMELITests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +947,7 @@
 		};
 		0570426A208644ED00F32FAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D6E5BC7643676BF61CF13B /* Pods-PruebaMELIUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PruebaMELIUITests/Info.plist;
@@ -516,6 +965,7 @@
 		};
 		0570426B208644ED00F32FAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6EC02801B640C4E029E560 /* Pods-PruebaMELIUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PruebaMELIUITests/Info.plist;
